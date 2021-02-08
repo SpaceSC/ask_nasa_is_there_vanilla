@@ -9,7 +9,7 @@ const pageLoad = async () => {
   
   const rootE = document.getElementById("root");
   
-  // insert title-t and image to root
+  // insert title and image to root
   rootE.insertAdjacentHTML("beforeend", `
     <h1>${data.title}</h1>
     <img src="${data.url}" />
