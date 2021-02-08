@@ -1,6 +1,6 @@
 // write async before name of function
 const pageLoad = async () => {
-
+  // fetch always returns a promise object
   // await is what you are waiting for
   let data = await fetch('https://api.nasa.gov/planetary/apod?api_key=JZLWuJDR9crbBSjYEFfoziVpdkNQq6FNywPhfzdT')
     .then(response => response.json());
